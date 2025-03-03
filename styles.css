@@ -227,6 +227,7 @@ section#publications h2 {
     margin-right: 0.5em;
     border-radius: 4px;
     font-size: 0.85em;
+    color: #4361ee;
     transition: background-color 0.2s ease;
   }
   
@@ -234,6 +235,29 @@ section#publications h2 {
     background-color: #ddd;
   }
 
+  .manu-title,
+    .manu-authors,
+    .manu-links {
+    margin: 0.3em 0;
+    text-align: left;                 /* Ensures everything is left-aligned */
+    padding-left: 30px;       /* Reserves space on the left for the badge + spacing */
+    }
+
+  
+  /* 1) Title line (includes optional badge) */
+  .manu-title {
+    position: relative;       /* Allows absolute positioning of the badge */
+    font-weight: bold;
+    margin: 0.3em 0;
+    line-height: 1.4;
+    text-align: left;         /* Ensures multi-line text is left-aligned */
+  }
+  
+  /* 2) Authors */
+  .manu-authors {
+    margin: 0.2em 0;
+    color: #333;
+  }
   
 /* Footer styling */
 footer {

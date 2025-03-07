@@ -11,7 +11,7 @@ html, body {
 /* Container that centers the content horizontally */
 .container {
     width: 90%;
-    max-width: 800px;
+    max-width: 1000px;       /* Increased max width */
     margin: 2em auto;       /* Centers container horizontally */
     padding: 1em;
     text-align: center;     /* Center-aligns direct child elements (e.g., headings) */
